@@ -1,0 +1,132 @@
+body
+{
+background:url(../gambar/background1.jpg) no-repeat center fixed;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#000;
+}
+
+#footer
+{
+background	: rgba(125, 133, 133, 0.541);
+bottom      : 0px;
+width		: 100%;
+height		: 35px;
+color		: #E6E6FA;
+margin-top	: 20px;
+position	: fixed;
+clear		: both;
+}
+
+*{
+	margin		: 0;
+	padding		: 0;
+}
+
+
+.login-form {
+	width: 400px;
+	margin-left : 10px;
+	margin-right: 10px;
+	padding: 20px;
+	position: absolute;
+	top:30%;
+	left:33%;
+	display: inline-block;
+	zoom: 1; /* ie7 hack for display:inline-block */
+	*display: inline;
+	border: 1px solid #bbb;
+	-moz-box-shadow:    0 1px 2px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+	box-shadow:         0 1px 2px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+	behavior: url(PIE.htc);
+}
+
+.login-form label {
+	color: #444;
+	font-weight: bold;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	margin-bottom: 100px;
+}
+
+.login-input {
+	width: 330px;
+	height: 30px;
+	padding: 5px 5px;
+	margin-bottom: 10px;
+	margin-left:10px
+	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #333;
+	outline: none;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	position: relative;
+	-moz-box-shadow:    inset 0 0 1px rgba(0, 0, 0, 0.5), 0 0 2px rgba(255, 255, 255, 0.7);
+	-webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5), 0 0 2px rgba(255, 255, 255, 0.7);
+	box-shadow:         inset 0 0 1px rgba(0, 0, 0, 0.5), 0 0 2px rgba(255, 255, 255, 0.7);
+	-moz-transition:    all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition:      all 0.4s ease-in-out;
+	-ms-transition:     all 0.4s ease-in-out;
+	transition:         all 0.4s ease-in-out;
+	behavior: url(PIE.htc);
+}
+
+.login-btn {
+	width: 397px;
+	height: 30px;
+	color: #fff;
+	font: bold 12px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+	letter-spacing: 1px;
+	text-align: center;
+	border: 1px solid rgba(133, 125, 125, 0.541);
+	margin-top : 10px;
+	margin-bottom:10px;
+	outline: none;
+	cursor: pointer;
+	position: relative;
+	background-color: rgba(133, 125, 125, 0.541);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(133, 125, 125, 0.541)), to(rgba(133, 125, 125, 0.541))); /* Saf4+, Chrome */
+    -moz-box-shadow:    inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.5);
+	box-shadow:         inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.5);
+	behavior: url(PIE.htc);
+}
+
+.login-form.tbbar {
+	border: 1px solid #f6f6f6;
+	background-color: #f6f6f6;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#d4d4d4)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #fefefe, #d4d4d4); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	background-image:    -moz-linear-gradient(top, #fefefe, #d4d4d4); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #fefefe, #d4d4d4); /* IE10 */
+	background-image:      -o-linear-gradient(top, #fefefe, #d4d4d4); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #fefefe, #d4d4d4);
+	-pie-background:          linear-gradient(top, #fefefe, #d4d4d4); /* IE6-IE9 */
+}
+
+/* Title bar */
+.tbar {
+	font: bold 15px/1 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-align:center;
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	margin: -20px -20px 20px -20px;
+	position: relative;
+	-moz-box-shadow:    inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 1px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 1px rgba(0, 0, 0, 0.3);
+	box-shadow:         inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 1px rgba(0, 0, 0, 0.3);
+	behavior: url(PIE.htc);
+}
+
+/*** Light Green ***/
+
+.lgreen .tbar {
+	background-color: rgba(133, 125, 125, 0.541);	
+}
+
+
+
+
